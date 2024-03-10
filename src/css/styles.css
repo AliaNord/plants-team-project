@@ -5,21 +5,40 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
 @import url('./header.css');
+@import url('./hero.css');
+@import url('./service-card.css');
+@import url('./about-us.css');
+@import url('./company-logo.css');
+@import url('./projects.css');
+@import url('./why-choose-us.css');
+@import url('./our-team.css');
+@import url('./cta.css');
+@import url('./client-testimonials.css');
+@import url('./blogs-and-news.css');
+@import url('./footer.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  --main-1-color: #00730c;
+  --main-2-black-color: #0b0b0b;
+  --main-3-color: #0c4b35;
+  --main-bg-color: #e3e3e3;
+  --main-bg-white-color: #fff;
+  --main---bg-color: #242424;
+  --main---bg-color: #f0f0f0;
+  --main-1.-light-bg-color-secondry: #d9f1e0;
+  --main-3.light-color: #fbeee7;
+  --main---01-bg-color: #fff8f1;
+  --main---bg-light-color-4: #f6f6f6;
+  --typography-heading-font-color: #212529;
+  --typography-font-white-color: #fff;
+  --typography---paragraph-color: #676767;
+  --icon-colors---white-color: #fff;
+  --social-icon-color---twitter: #009fee;
+  --social-icon-color---google: #367cff;
+  --social-icon-color---linkedin: #0079b2;
+  --social-icon-color--pinterest: #ef1408;
+  --typograph---paragraph-color-2: #d7d7d7;
+  --font-family: "Nunito", sans-serif;
+  --second-family: "Poppins", sans-serif;
 }
